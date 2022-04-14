@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C1C956BF2807B0D000CFFBEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C956BE2807B0D000CFFBEA /* AppDelegate.m */; };
-		C1C956C22807B0D000CFFBEA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C956C12807B0D000CFFBEA /* SceneDelegate.m */; };
 		C1C956C52807B0D000CFFBEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C956C42807B0D000CFFBEA /* ViewController.m */; };
 		C1C956C82807B0D000CFFBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C956C62807B0D000CFFBEA /* Main.storyboard */; };
 		C1C956CA2807B0D300CFFBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C956C92807B0D300CFFBEA /* Assets.xcassets */; };
 		C1C956CD2807B0D300CFFBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C956CB2807B0D300CFFBEA /* LaunchScreen.storyboard */; };
 		C1C956D02807B0D300CFFBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C956CF2807B0D300CFFBEA /* main.m */; };
+		C1C956D82807B59100CFFBEA /* ZBWViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C956D72807B59100CFFBEA /* ZBWViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1C956BA2807B0D000CFFBEA /* ZbwSwiftProjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZbwSwiftProjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C956BD2807B0D000CFFBEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1C956BE2807B0D000CFFBEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1C956C02807B0D000CFFBEA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		C1C956C12807B0D000CFFBEA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		C1C956C32807B0D000CFFBEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C1C956C42807B0D000CFFBEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C1C956C72807B0D000CFFBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +27,8 @@
 		C1C956CC2807B0D300CFFBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1C956CE2807B0D300CFFBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1C956CF2807B0D300CFFBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1C956D62807B59000CFFBEA /* ZbwSwiftProjet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZbwSwiftProjet-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1C956D72807B59100CFFBEA /* ZBWViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBWViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +63,15 @@
 			children = (
 				C1C956BD2807B0D000CFFBEA /* AppDelegate.h */,
 				C1C956BE2807B0D000CFFBEA /* AppDelegate.m */,
-				C1C956C02807B0D000CFFBEA /* SceneDelegate.h */,
-				C1C956C12807B0D000CFFBEA /* SceneDelegate.m */,
 				C1C956C32807B0D000CFFBEA /* ViewController.h */,
 				C1C956C42807B0D000CFFBEA /* ViewController.m */,
+				C1C956D72807B59100CFFBEA /* ZBWViewController1.swift */,
 				C1C956C62807B0D000CFFBEA /* Main.storyboard */,
 				C1C956C92807B0D300CFFBEA /* Assets.xcassets */,
 				C1C956CB2807B0D300CFFBEA /* LaunchScreen.storyboard */,
 				C1C956CE2807B0D300CFFBEA /* Info.plist */,
 				C1C956CF2807B0D300CFFBEA /* main.m */,
+				C1C956D62807B59000CFFBEA /* ZbwSwiftProjet-Bridging-Header.h */,
 			);
 			path = ZbwSwiftProjet;
 			sourceTree = "<group>";
@@ -107,6 +107,7 @@
 				TargetAttributes = {
 					C1C956B92807B0D000CFFBEA = {
 						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -146,10 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C956D82807B59100CFFBEA /* ZBWViewController1.swift in Sources */,
 				C1C956C52807B0D000CFFBEA /* ViewController.m in Sources */,
 				C1C956BF2807B0D000CFFBEA /* AppDelegate.m in Sources */,
 				C1C956D02807B0D300CFFBEA /* main.m in Sources */,
-				C1C956C22807B0D000CFFBEA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -299,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +310,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zbwTestWildcard.ZbwSwiftProjet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZbwSwiftProjet/ZbwSwiftProjet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,7 +341,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zbwTestWildcard.ZbwSwiftProjet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZbwSwiftProjet/ZbwSwiftProjet-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
