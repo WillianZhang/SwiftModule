@@ -1,0 +1,1 @@
+God rewards the diligent
